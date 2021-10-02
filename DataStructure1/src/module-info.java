@@ -1,0 +1,2 @@
+module dataStructure1 {
+}
