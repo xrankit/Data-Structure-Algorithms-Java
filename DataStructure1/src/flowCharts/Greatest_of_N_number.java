@@ -17,8 +17,12 @@ public class Greatest_of_N_number {
 		
 		for(int i = 0; i<N;i++)
 		{
-			
+			if(arr[i]>=largest)
+			{
+				largest = arr[i];
+			}
 		}
+		System.out.println("the largest of "+ N + " number is "+ largest);
 		
 	}
 
