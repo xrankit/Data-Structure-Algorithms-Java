@@ -5,28 +5,25 @@ public class PrimeNousingSquare {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner sc = new Scanner(System.in);
-		int t = sc.nextInt();
-		for(int i=0;i<t;i++)
-		{
-			int N = sc.nextInt();
-			int count =0;
-			for(int j =2;j*j<=N;j++)
-			{
-				if(N%j==0)
-				{
-					count++;
-				}
-			}
-			if(count==0)
-			{
-				System.out.println("Prime Number");
-			}
-			else
-			{
-				System.out.println("Non Prime Number");
-			}
-		}
+		   Scanner sc = new Scanner(System.in);
+	        int low = sc.nextInt();
+	        int high = sc.nextInt();
+	        for(int i = low; i <= high ; i++)
+	        {
+	           int flag = 0;
+	            for(int j=2;j*j<=i;j++)
+	            {
+	                if(i%j==0)
+	                {
+	                    flag++;
+	                    break;
+	                }
+	            }
+	            if(flag==0)
+	            {
+	                System.out.println(i);
+	            }
+	        }
 	}
 
 }
