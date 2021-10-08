@@ -2,20 +2,7 @@ package getiingStarted;
 
 import java.util.Scanner;
 public class ReverseDigits {
-
-	static void printreverse(int N)
-	{
-		 int r;
-		    if (N == 0) 
-		    {
-		        return;
-		    }
-		    r = N % 10;
-		    
-		    printreverse(N / 10);
-		  
-		    System.out.println(r);
-		}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
