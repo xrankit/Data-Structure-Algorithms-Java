@@ -14,6 +14,11 @@ public class Pattern9 {
 			{
 				System.out.print(" ");
 			}
+			System.out.print("*");
+			for(int j =i+2;j>=0;j--)
+			{
+				System.out.print(" ");
+			}
 			System.out.println("*");
 		}
 		for(int i = n-1;i>0;i--)
