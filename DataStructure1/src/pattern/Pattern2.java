@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Pattern2 {
 	   public static void main(String[] args) {
 	        Scanner scn = new Scanner(System.in);
-
 	        // write your code here
 	        int n = scn.nextInt();
 	        for(int i =n;i>0;i--)
@@ -14,7 +13,5 @@ public class Pattern2 {
 	            }
 	            System.out.println("");
 	        }
-	    
 	    }
-
 }
