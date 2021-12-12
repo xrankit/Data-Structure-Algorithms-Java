@@ -8,14 +8,16 @@ public class complementofbase10integer {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		int ans = 0;
-		int i =0;
+		int i =1;
 		while(n!=0)
 		{
 			int bit = n&1;
-			ans = bit * (int)(Math.pow(10, i)) + ans;
-			
+			if(bit==0)
+			{
+			ans = ans + (1*i);
+			}
 			n = n>>1;
-			i++;
+			i = i*2;
 		}
 		System.out.println(ans);
 		
