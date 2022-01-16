@@ -28,7 +28,7 @@ public class pattern28 {
 //
 //		A B C D E F
 		
-		for (int i = 5; i >= 0; i–)
+		for (int i = 5; i >= 0; i--)
 
 		{
 
@@ -38,7 +38,7 @@ public class pattern28 {
 
 		   {
 
-		       System.out.print((char) (alphabet + j) + ” “);
+		       System.out.print((char) (alphabet + j) + " ");
 
 		   }
 
@@ -56,13 +56,13 @@ public class pattern28 {
 
 		   {
 
-		       System.out.print((char) (alphabet + j) + ” “);
+		       System.out.print((char) (alphabet + j) + " ");
 
 		   }
 
 		   System.out.println();
 
-		}
+		} 
 	}
 
 }
