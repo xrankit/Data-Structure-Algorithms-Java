@@ -19,11 +19,19 @@ public class ArrayIntersection {
 		{
 			arr2[i] = sc.nextInt();
 		}
+		int t = Integer.max(m,n);
+		int temp[]= new int[t];
 		
-		int maxi = Integer.max(n,m);
-		for(int i =0; i<maxi;i++)
+		for(int i =0; i<n;i++)
 		{
-			
+			for(int j = 0; j<m;j++)
+			{
+				if(arr1[i]==arr2[j])
+				{
+					 System.out.println(arr1[i]);
+				}
+				
+			}
 		}
 	}
 
