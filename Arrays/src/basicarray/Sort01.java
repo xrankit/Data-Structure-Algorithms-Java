@@ -50,8 +50,7 @@ public class Sort01 {
 		{
 			System.out.print(arr[l]+" ");
 		}
-	}
-}
-
+	 }
+  }
 	
 }
