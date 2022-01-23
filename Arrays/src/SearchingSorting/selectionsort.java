@@ -21,7 +21,7 @@ public class selectionsort {
 //				{
 //					temp = arr[i];
 //					arr[i]=arr[j];
-//					arr[j] = temp;
+//				8	arr[j] = temp;
 //				}
 			}
 		}
