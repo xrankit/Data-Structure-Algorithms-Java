@@ -1,4 +1,4 @@
-package objects_and_classes;
+ package objects_and_classes;
 
 public class Student {
 	
