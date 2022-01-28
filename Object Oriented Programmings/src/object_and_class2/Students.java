@@ -22,5 +22,5 @@ public class Students {
             System.out.print(name +" " + rollNo+" ");
     }
 
-	}
+}
 		
